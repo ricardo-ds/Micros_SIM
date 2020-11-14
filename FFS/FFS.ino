@@ -1,4 +1,6 @@
 #include "SPIFFS.h"
+//Serial Peripheral Interface Flash Fail System
+
 void setup() {
   Serial.begin(115200);
   if(!SPIFFS.begin(true)){

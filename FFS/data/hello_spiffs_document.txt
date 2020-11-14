@@ -1,1 +1,8 @@
-Hello from Qro, hello again
+ Serial.println("HTTP/1.1 200 OK");
+  Serial.println("Content-type:text/html");
+  Serial.println();
+ // the content of the HTTP response follows the header:
+ Serial.print("Click <a href=\"/H\">here</a> to turn ON the LED.<br>");
+ Serialt.print("Click <a href=\"/L\">here</a> to turn OFF the LED.<br>");
+ // The HTTP response ends with another blank line:
+Serial.println();
