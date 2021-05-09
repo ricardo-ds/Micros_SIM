@@ -2,8 +2,8 @@
 //#include "ESP8266WiFi.h"
 
 // WiFi parameters to be configured
-const char* ssid = "INFINITUM38C2_2.4";
-const char* password = "3831720734";
+const char* ssid = "";
+const char* password = "";
 
 void setup(void)
 { 
